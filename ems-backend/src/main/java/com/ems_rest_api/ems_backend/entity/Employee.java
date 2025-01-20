@@ -33,8 +33,8 @@ public class Employee {
     @Column(name = "last_name")
     private String lastName;
 
+    //    making the email column not null and unique
     @Column(name = "email_id", nullable = false, unique = true)
-//    making the email column not null and unique
     private String email;
 
 }
